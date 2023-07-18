@@ -1,0 +1,51 @@
+.background-puryfiel{
+    background-color: #ececf4;
+}
+.seccion-b{
+    background-color: #4c6ca4;
+}
+.seccion-w{
+    background-color: white;
+}
+
+.link-puryfiel:hover{
+    border-bottom: #4c6ca4;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+.seccion{
+    min-height: 25vh;
+}
+.red-social{
+    font-size: 250%;
+    margin: 20px;
+}
+.img-cover{
+    object-fit: cover;
+}
+.carousel-inner img {
+    filter: brightness(70%);
+    object-fit: cover;
+    height: 25vh;
+}
+
+
+.color-puryfiel{
+    color: #4c6ca4;
+}
+@media only screen and (min-width:840px) {
+    #Seccion1{
+        display:none;
+    }
+}
+@media only screen and (min-width:992px) {
+    .carousel-inner img {
+        filter: brightness(70%);
+        object-fit: cover;
+        height: 60vh;
+    }
+    #Seccion1{
+        display:flex;
+    }
+}
+
