@@ -1,7 +1,6 @@
-<nav id="navbar-puryfiel" class="navbar navbar-expand-sm fixed-top background-puryfiel" >
-    <a class="navbar-brand " href="#">
-    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        Puryfiel
+<nav id="navbar-puryfiel" class="navbar navbar-expand-sm  background-puryfiel" >
+    <a class="navbar-brand " href="#"> 
+    
     </a>
     <button class="navbar-toggler me-2 border-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -12,7 +11,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body ">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-center flex-fill">
                 <li class="nav-item">
                     <a class="nav-link mx-0 mx-sm-1 link-puryfiel" aria-current="page" href="#">Inicio</a>
                 </li>
@@ -29,4 +28,3 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid" style="margin-top:50px;">
