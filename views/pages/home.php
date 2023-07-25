@@ -1,5 +1,5 @@
 <div class="container-fluid " style="margin-top:50px;">
-    <div class="position-fixed row col-12">
+
         <section>
             <div class="row seccion pt-3">
                 <div id="carousel_gym" class="carousel slide carousel-fade carrusel px-0 mx-0" data-bs-ride="carousel">
@@ -19,14 +19,15 @@
                             </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_gym" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon color-puryfiel" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_gym" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </div>
-        </section>
-    </div>
-        
-    <div class="position-relative z-1">
-        <section>
-            <div id="seccion1" class="row seccion pt-3 carousel-layer">
             </div>
         </section>
         <section>
@@ -113,6 +114,6 @@
                 </div>
             </div>
         </section>
-    </div>
+    
 </div>
 
