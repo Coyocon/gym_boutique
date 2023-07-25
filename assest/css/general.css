@@ -7,6 +7,9 @@
 .seccion-w{
     background-color: white;
 }
+.img-seccion{
+    min-height: 15vh;
+}
 
 .link-gym:hover{
     border-bottom: #4c6ca4;
@@ -14,7 +17,7 @@
     border-width: 0px 0px 1px 0px;
 }
 .seccion{
-    min-height: 25vh;
+    min-height: 15vh;
 }
 .red-social{
     font-size: 250%;
@@ -28,7 +31,9 @@
     object-fit: cover;
     height: 25vh;
 }
-
+.carousel-layer{
+    height: 25vh;
+}
 
 .color-gym{
     color: #4c6ca4;
@@ -43,6 +48,15 @@
         filter: brightness(70%);
         object-fit: cover;
         height: 60vh;
+    }
+    .carousel-layer{
+        height: 60vh;
+    }
+    .seccion{
+        min-height: 25vh;
+    }
+    .img-seccion{
+        min-height: 25vh;
     }
     #Seccion1{
         display:flex;
