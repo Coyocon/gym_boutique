@@ -3,6 +3,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+require 'assest/composer/vendor/autoload.php';
+
 session_start();
 $method=$_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
@@ -12,9 +14,6 @@ if($method == 'POST'){
 
     }else{
 
-require 'assest/PHPMailer/Exception.php';
-require 'assest/PHPMailer/PHPMailer.php';
-require 'assest/PHPMailer/SMTP.php';
 $mail = new PHPMailer(true);
 
 try{
@@ -35,7 +34,7 @@ try{
     }
     $_SESSION['code']=$code;
     $mail->Subject = 'Codigo de acceso a cuenta';
-    $mail->Body="Tu codigo de acceso es <b>$code</b>";
+    $mail->msgHTML(file_get_contents('body.html'), __DIR__);
     $mail->send();
 } catch(Exception $e){
     echo 'Mensaje'. $mail->ErrorInfo;
@@ -50,7 +49,6 @@ try{
 <?php }else{ ?>
 
     <input name="email" type="Mail">
-    <button> Enviar codigo </button>
-
-<?php }?>
+    <button> Enviar codigo </button>    
+<?php } ?>
 </form>
