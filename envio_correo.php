@@ -3,7 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'assest/composer/vendor/autoload.php';
+require 'componentes/mail/Exception.php';
+require 'componentes/mail/PHPMailer.php';
+require 'componentes/mail/SMTP.php';
 
 session_start();
 $method=$_SERVER['REQUEST_METHOD'];
