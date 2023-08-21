@@ -13,7 +13,7 @@ if(false){
                 break;
             }
         }else{
-            $pagescontrol->Page("home");
+            $pagescontrol->Page("prueba");
         }
     }
 }

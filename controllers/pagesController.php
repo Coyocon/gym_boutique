@@ -6,7 +6,6 @@ class PagesController{
     require_once 'views/default/header.php';
     require_once "views/default/menu.php";
     require_once 'views/pages/'.$page.'.php';
-    require_once 'views/default/redes_sociales.php';
     require_once 'views/default/footer.php';
   }
   public function proximamente(){
