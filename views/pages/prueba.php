@@ -10,43 +10,64 @@
 <section class="content">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="info-box">
-          <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="info-box bg-info">
+          <span class="info-box-icon"><i class="fas fa-medal"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">CPU Traffic</span>
-            <span class="info-box-number">
-                  10
-              <small>%</small>
+            <span class="info-box-text">Nivel</span>
+            <span class="info-box-number">1</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+            <span class="progress-description">
+              70% Progreso
             </span>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="info-box mb-3">
-          <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
+        <div class="info-box mb-3 bg-warning">
+          <span class="info-box-icon bg-warning"><i class="fas fa-users"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">Likes</span>
-            <span class="info-box-number">41,410</span>
+            <span class="info-box-text">Entrenador favorito</span>
+            <span class="info-box-number">Aladino Chi</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+            <span class="progress-description">
+              70% de tus clases
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3">
+        <div class="info-box mb-3  bg-success ">
+          <span class="info-box-icon "><i class="fas fa-dumbbell"></i></span>
+          <div class="info-box-content">
+            <span class="info-box-text">Clases disponibles</span>
+            <span class="info-box-number">4</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+            <span class="progress-description">
+              14/09/2023 caducan
+            </span>
           </div>
         </div>
       </div>
       <div class="clearfix hidden-md-up"></div>
       <div class="col-12 col-sm-6 col-md-3">
-        <div class="info-box mb-3">
-          <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
+        <div class="info-box mb-3 bg-danger">
+          <span class="info-box-icon"><i class="fas fa-clipboard-check"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">Sales</span>
-            <span class="info-box-number">760</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="info-box mb-3">
-          <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
-          <div class="info-box-content">
-            <span class="info-box-text">New Members</span>
-            <span class="info-box-number">2,000</span>
+            <span class="info-box-text">Clases realizadas</span>
+            <span class="info-box-number">15</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 100%"></div>
+            </div>
+            <span class="progress-description">
+               100% de las agendadas
+            </span>
           </div>
         </div>
       </div>
@@ -54,12 +75,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="card">
-          <div class="card-header" data-card-widget="collapse">
-            <h5 class="card-title">Monthly Recap Report</h5>
+          <div class="card-header">
+            <h5 class="card-title">Reporte de mejora</h5>
             <div class="card-tools">
-              <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                <i class="fas fa-minus"></i>
-              </button>
             </div>
           </div>
           <div class="card-body">
