@@ -11,9 +11,12 @@ if(false){
                 case 'home':
                 $pagescontrol->Page($_GET['page']);
                 break;
+                case 'eventos':
+                    $pagescontrol->Page($_GET['page']);
+                break;
             }
         }else{
-            $pagescontrol->Page("prueba");
+            $pagescontrol->Login();
         }
     }
 }
