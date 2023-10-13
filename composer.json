@@ -1,10 +1,5 @@
 {
     "require": {
         "google/apiclient": "^2.15.0"
-    },
-    "config": {
-
-        "platform-check": false
-    }
-    
+    }    
 }
