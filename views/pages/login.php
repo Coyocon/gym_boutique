@@ -5,7 +5,7 @@ require_once 'vendor/autoload.php';
 $google_client = new Google\Client();
 $google_client -> setClientId('283601058959-806grcattvnmrlcbtgijn2upqfv9fttq.apps.googleusercontent.com');
 $google_client -> setClientSecret('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');
-$google_client -> setRedirectUri('http://localhost/gym_boutique/');
+$google_client -> setRedirectUri('https://app.kuxfit.com/');
 $google_client ->addScope("email");
 $google_client -> addScope("profile");
 
