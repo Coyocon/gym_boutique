@@ -1,4 +1,6 @@
 <?php  
+require_once 'componentes/config/config.php';
+
 class PagesController{
   public function __construct(){    
   }
@@ -6,12 +8,6 @@ class PagesController{
     require_once 'views/default/header.php';
     require_once "views/default/menu.php";
     require_once 'views/pages/'.$page.'.php';
-    require_once 'views/default/footer.php';
-  }
-  public function Login(){
-    $login = true;
-    require_once 'views/default/header.php';
-    require_once 'views/pages/login.php';
     require_once 'views/default/footer.php';
   }
 

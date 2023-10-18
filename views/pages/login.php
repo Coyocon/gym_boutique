@@ -1,11 +1,10 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
 require_once 'vendor/autoload.php';
+require_once 'componentes/config/loginGoogle.php';
 $google_client = new Google\Client();
-$google_client -> setClientId('283601058959-806grcattvnmrlcbtgijn2upqfv9fttq.apps.googleusercontent.com');
-$google_client -> setClientSecret('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');
-$google_client -> setRedirectUri('https://app.kuxfit.com/');
+$google_client -> setClientId($clienteID);
+$google_client -> setClientSecret($clienteS);
+$google_client -> setRedirectUri($url_redirecc);
 $google_client ->addScope("email");
 $google_client -> addScope("profile");
 
@@ -19,10 +18,9 @@ if (isset($_GET['code'])){
     $datos['gener']= $google_account_info->gender;
     $datos['email'] = $google_account_info->email;
     $datos['imagen']=$google_account_info->picture;
-    echo'<pre>';
-    var_dump($datos);
-    echo '</pre>';
-    echo "<img src=".$datos['imagen'].">";
+    session_start();
+    $_SESSION=$datos;
+    header("location:".URL);
 }
 ?>
 <div class="login-box">
@@ -70,11 +68,8 @@ if (isset($_GET['code'])){
 
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
-        </a>
         <a href="<?= $google_client->createAuthUrl() ?>" class="btn btn-block btn-danger">
-          <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
+          <i class="fab fa-google-plus mr-2"></i> Iniciar session con Google
         </a>
       </div>
       <!-- /.social-auth-links -->
