@@ -11,9 +11,12 @@ if(false){
         if(isset($_GET['page'])){
             switch($_GET['page']){
                 case 'home':
-                $pagescontrol->Page($_GET['page']);
+                    $pagescontrol->Page($_GET['page']);
                 break;
                 case 'eventos':
+                    $pagescontrol->Page($_GET['page']);
+                break;
+                case 'logout':
                     $pagescontrol->Page($_GET['page']);
                 break;
             }

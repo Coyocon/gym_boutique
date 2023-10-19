@@ -3,6 +3,8 @@ RewriteEngine on
 RewriteBase /gym_boutique/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^logout$  logout.php
 RewriteRule ^([a-zA-Z0-9\-]+)$   home.php?page=$1
+
 
 
