@@ -25,6 +25,12 @@ $(function () {
         center: 'title',
         right : 'dayGridMonth,timeGridWeek,timeGridDay'
       },
+      buttonText: {
+        today: 'Hoy',
+        month: 'Mes',
+        week: 'Semana',
+        day: 'Día',
+      },
       themeSystem: 'bootstrap',
       //Random default events
       events: [
