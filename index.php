@@ -7,7 +7,7 @@ if(false){
     $logincontrol->proximamente();
 }else{
     if(isset($_SESSION['email'])){
-        header("location:".'http://'.$_SERVER['HTTP_HOST'].'/gym_boutique/home');
+        header("location:".'http://'.$_SERVER['HTTP_HOST'].'/home');
     }else{
         session_destroy();
         $logincontrol->Login();

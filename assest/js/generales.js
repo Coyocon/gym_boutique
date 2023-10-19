@@ -1,12 +1,12 @@
 $(document).ready(function(){
     $('#datos').click(function(){
-      window.location.href = "/gym_boutique/home";
+      window.location.href = "home";
     });
     $('#eventos').click(function(){
-      window.location.href = "/gym_boutique/eventos";
+      window.location.href = "eventos";
     });
     $('#logout').click(function(){
-      window.location.href="/gym_boutique/logout";
+      window.location.href="logout";
     });
     
   });

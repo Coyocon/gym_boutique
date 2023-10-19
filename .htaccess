@@ -1,6 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteBase /gym_boutique/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^logout$  logout.php
