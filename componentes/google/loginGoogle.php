@@ -8,7 +8,6 @@ $google_client -> setClientSecret($clienteS);
 $google_client -> setRedirectUri($url_redirecc);
 $google_client ->addScope("email");
 $google_client -> addScope("profile");
-
 if (isset($_GET['code'])){
     $token = $google_client->fetchAccessTokenWithAuthCode($_GET['code']);
     $google_client ->setAccessToken($token['access_token']);
