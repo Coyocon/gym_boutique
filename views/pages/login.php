@@ -1,7 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
 require_once 'componentes/google/loginGoogle.php';
-
 ?>
 <div class="login-box">
   <div class="login-logo">
