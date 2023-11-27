@@ -31,8 +31,8 @@
 </head>
 <body class="hold-transition  sidebar-mini layout-fixed <?php if($login){echo "login-page";} ?>">
 <div class="<?php if(!$login){echo "wrapper";} ?>">
-  <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src="componentes/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+  <div class="preloader flex-column justify-content-center align-items-center ck-negro ">
+    <img class="animation__wobble" src="assest/img/logo_k.png" alt="Kutfix_logo" height="60" width="60">
   </div>
 
     
