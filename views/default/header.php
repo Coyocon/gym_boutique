@@ -26,9 +26,11 @@
   <link rel="stylesheet" href="componentes/plugins/summernote/summernote-bs4.min.css">
   <!-- fullCalendar -->
   <link rel="stylesheet" href="componentes/plugins/fullcalendar/main.css">
+  <!-- General -->
+  <link rel="stylesheet" href="assest/css/general.css">
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed <?php if($login){echo "login-page";} ?>">
-<div class="<?php if(!$login){echo "wrapper";}  ?>">
+<body class="hold-transition  sidebar-mini layout-fixed <?php if($login){echo "login-page";} ?>">
+<div class="<?php if(!$login){echo "wrapper";} ?>">
   <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__wobble" src="componentes/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
